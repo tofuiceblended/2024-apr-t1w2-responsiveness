@@ -1,0 +1,12 @@
+/* Default styles for small screens and anything not caught by media*/
+body {
+    background-color: lightblue;
+}
+/* styled for screens 600px wide and larger */
+/* @media screen and (min-width: 600px) { */
+@media screen and (width > 600px) {
+    body{
+        background-color: palegreen;
+    }
+}
+    
